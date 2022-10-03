@@ -1,6 +1,6 @@
 import React, { ElementType, MouseEventHandler, ReactNode } from 'react';
-import { ComponentSize } from '../../config/sizes';
-import { themeType } from '../../config/themes';
+import { ComponentSize } from '../../tokens/sizes';
+import { themeType } from '../../tokens/themes';
 interface BaseButtonProps {
     type?: themeType;
     icon?: ElementType;
@@ -10,6 +10,7 @@ interface BaseButtonProps {
     disabled?: boolean;
     loading?: boolean;
     search?: boolean;
+    typeBtn?: 'button' | 'submit' | 'reset';
 }
 declare type HTMLButtonProps = {
     onClick?: MouseEventHandler<HTMLButtonElement>;

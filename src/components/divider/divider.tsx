@@ -1,5 +1,5 @@
 import React from 'react';
-import { themeType } from '../../config/themes';
+import { themeType } from '../../tokens/themes';
 import { StyledDivider } from './styled';
 
 export interface DividerProps {
@@ -10,7 +10,8 @@ export interface DividerProps {
 }
 
 const Divider: React.ForwardRefRenderFunction<HTMLHRElement, DividerProps> = (
-  props, ref
+  props,
+  ref
 ) => {
   const { type = 'secondary', className, dashed, thickness = 0.5 } = props;
 

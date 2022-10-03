@@ -1,4 +1,4 @@
-import { themeType } from '../../config/themes';
+import { themeType } from '../../tokens/themes';
 interface StyledSpinnerProps {
     innerType: themeType;
     size: number;

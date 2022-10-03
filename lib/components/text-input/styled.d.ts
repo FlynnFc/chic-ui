@@ -1,4 +1,4 @@
-import { ComponentSize } from '../../config/sizes';
+import { ComponentSize } from '../../tokens/sizes';
 import CrossIcon from '../../icons/Cross';
 interface StyledWrapperProps {
     width: string;

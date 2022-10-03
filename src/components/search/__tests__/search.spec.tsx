@@ -1,6 +1,7 @@
 import Search from '..';
 import { render } from '../../../test/utils';
 
+/* eslint-disable */
 describe('Search Component', () => {
   it('Renders Correctly', () => {
     const SearchGroup = render(
@@ -9,7 +10,7 @@ describe('Search Component', () => {
           placeholder="Search something..."
           width="400px"
           value="Value"
-          onChange={e => alert(`Value Changed`)}
+          onChange={(e) => alert(`Value Changed`)}
         />
         ;
       </>
